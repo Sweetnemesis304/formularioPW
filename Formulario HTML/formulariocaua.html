@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <title>Meu Formulário Personalizado</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+  </head>
+
+  <H1> Formulário </H1>
+<body>
+  <div id="area">
+    <form id="formulario" autocomplete="off">
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label>Nome:</label><input class="campo_nome" type="text"><br>
+        <div>
+            <label for="date">Data de Nascimento:</label>
+            <input type="date">
+        </div>
+        <label>Email:</label><input class="campo_email" type="password"><br>
+        <label>Telefone</label><input class="campo_nome" type="phone"><br>
+        
+      
+      </fieldset>
+    </form>
+
+    <div id="area">
+        <form id="dados acadêmicos" autocomplete="off">
+          <fieldset>
+            <legend> Dados Acadêmicos </legend>
+            <label>Curso</label><input class="campo_nome" type="text"> 
+            <select name="select">
+                <option value="ADS"> ADS </option>
+                <option value="CDD" selected> CDD </option>
+            
+              </select>
+
+
+                  <legend>Semestre:</legend>
+                  <div>
+                    <input type="radio" id="Choice1" name="contact" value="email" />
+                    <label for="contactChoice1">1° </label>
+              
+                    <input type="radio" id="Choice2" name="contact" value="phone" />
+                    <label for="contactChoice2"> 2° </label>
+                    
+                    <input type="radio" id="Choice3" name="contact" value="phone" />
+                    <label for="contactChoice2"> 3° </label>
+
+                    <input type="radio" id="Choice4" name="contact" value="phone" />
+                    <label for="contactChoice2"> 4° </label> 
+
+                    <input type="radio" id="Choice5" name="contact" value="phone" />
+                    <label for="contactChoice2"> 5° </label>
+            
+                  </fieldset>
+        </form>     
+    </div>
+
+
+    <div id="area">
+        <form id="trabalho" autocomplete="off">
+          <fieldset>
+            <legend> Profissional </legend>
+            <label for="scales">Trabalha? </label>
+            <input type="checkbox" id="scales" name="scales" check />
+    <br>
+
+            <label>Local de trabalho </label><input class="campo_trabalho" type="text"> <br> 
+            <label>Descreva sua experiência:</label><br><textarea class="msg" cols="35" rows="8"></textarea><br>    
+          </fieldset>
+          
+        </form>
+    </div>
+
+<input class="btn_submit" type="submit" value="Gravar"> <input class="btn_submit" type="submit" value="Limpar"> 
+        
+  </div>
+
+</body>
+<footer>
+  <a href="index.html">Voltar para a página principal</a>
+</footer>
+</html>

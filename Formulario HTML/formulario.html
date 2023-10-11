@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML</title>
+    <style>
+        fieldset{
+            width:28%;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <label for="nome ">Nome: <input  id="nome" type="text" required></input></label><br>
+            <label for="data-de-nascimento ">Data de Nascimento: <input id="data-de-nascimento" type="text" required ></input></label><br>
+            <label for="sexo">Sexo: 
+                <input type="radio" id="sexo" name="sex">Masc</input> 
+                <input type="radio" id="sexo" name="sex">Fem</input/>
+                <input type="radio" id="sexo" name="sex">Prefiro não informar</input><br>
+            </label>
+            <label>Endereço: </label><br>
+            <label for="logradouro ">Logradouro: <input id="logradouro" type="text" required></input></label><br>
+            <label for="bairro ">Bairro: <input id="bairro" type="text" required></input></label><br>
+            <label for="cidade ">Cidade: <input id="cidade" type="text" required></label></input></label><br>
+            <label for="UF">UF: 
+                <select required>
+                    <option>DF</option>
+                    <option>RJ</option>
+                    <option>SP</option>
+                    <option>MG</option>
+                    <option>MS</option>
+                    <option>PR</option>
+                    <option>RO</option>
+                    <option></option>
+                </select>
+            </label><br>
+            <label for="email">Email: <input id="email" type="text"></input></label><br>
+            <input type="reset" value="Limpar"></input>
+            <input type="submit" value="Enviar"></input>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
+<a href="index.html">Voltar para a página inicial</a>
+
